@@ -1,0 +1,60 @@
+# Bundler cache
+.bundle
+vendor/
+Gemfile.lock
+
+# Jekyll cache
+.jekyll-cache/
+_site/
+
+# RubyGems
+*.gem
+
+# NPM dependencies
+node_modules/
+package-lock.json
+
+# Yarn dependencies
+yarn.lock
+
+# IDE configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite3
+*.csv
+*.pid
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+assets/js/dist/
+tmp/
+.cache/
+*.bak
+*.old
+*.orig
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore built files and directories for other build tools
+dist/
+build/
+public/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+
+# Ignore dotenv environment variable files
+.env
+.env.*
